@@ -26,27 +26,27 @@ export default function Hero() {
           background: `radial-gradient(600px circle at ${mousePosition.x}px ${mousePosition.y}px, rgba(59, 130, 246, 0.15), transparent 40%)`,
         }}
       ></div>
-      <div className="absolute top-20 left-4 sm:left-10 w-48 sm:w-72 h-48 sm:h-72 bg-teal-500/10 rounded-full blur-3xl animate-[pulse_4s_ease-in-out_infinite]"></div>
-      <div className="absolute bottom-20 right-4 sm:right-10 w-64 sm:w-96 h-64 sm:h-96 bg-teal-500/10 rounded-full blur-3xl animate-[pulse_4s_ease-in-out_infinite] delay-1000"></div>
+      <div className="absolute top-20 left-4 sm:left-10 w-48 sm:w-72 h-48 sm:h-72 bg-cyan-500/10 rounded-full blur-3xl animate-[pulse_4s_ease-in-out_infinite]"></div>
+      <div className="absolute bottom-20 right-4 sm:right-10 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/10 rounded-full blur-3xl animate-[pulse_4s_ease-in-out_infinite] delay-1000"></div>
       
       <div className="max-w-7xl mx-auto text-center relative w-full">
           <div className="max-w-7xl mx-auto flex flex-col lg:grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12 items-center relative text-center lg:text-left">
             <div>
-                <div className="inline-flex items-center space-x-2 px-3 sm:px-4 py-2 bg-green-500/10 border border-green-500/10 mb-4 sm:mb-6 rounded-full animate-in slide-in-from-bottom duration-700 ">
-                    <Sparkles  className="w-4 h-4 y=text0green-400"/>
-                    <span className="text-xs sm:text-sm text-green-300">Introducing CodeFlow AI</span>
+                <div className="inline-flex items-center space-x-2 px-3 sm:px-4 py-2 bg-blue-500/10 border border-blue-500/10 mb-4 sm:mb-6 rounded-full animate-in slide-in-from-bottom duration-700 ">
+                    <Sparkles  className="w-4 h-4 text-blue-400"/>
+                    <span className="text-xs sm:text-sm text-blue-300">Introducing CodeFlow AI</span>
                 </div>
                 <h1 className="text-5xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 sm:mb-6 animate-in slide-in-from-bottom duration-700 delay-100 leading-tight">
-                    <span className="bg-gradient-to-r from-white via-green-100 to-cyan-100 bg-clip-text text-transparent block mb-1 sm:mb-2 ">Code Faster</span>
-                    <span className="bg-gradient-to-r from-green-400 via-emerald-300 to-green-400 bg-clip-text text-transparent block mb-1 sm:mb-2 ">Build Better</span>
-                    <span className="bg-gradient-to-r from-white via-green-100 to-cyan-100 bg-clip-text text-transparent block mb-1 sm:mb-2 ">With CodeFlow AI</span>
+                    <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent block mb-1 sm:mb-2 ">Code Faster</span>
+                    <span className="bg-gradient-to-r from-blue-400 via-cyan-300 to-blue-400 bg-clip-text text-transparent block mb-1 sm:mb-2 ">Build Better</span>
+                    <span className="bg-gradient-to-r from-white via-blue-100 to-cyan-100 bg-clip-text text-transparent block mb-1 sm:mb-2 ">With CodeFlow AI</span>
                 </h1>   
                 <p className="text-md sm:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-6 sm:mb-8 animate-in slide-in-from-bottom duration-700 delay-200 leading-relaxed">
                     Accelerate your development workflow with intelligent code completion, automated testing, and smart debugging. Ship production-ready code 10x faster.
                 </p>
 
                 <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 mb-8 sm:mb-12 animate-in slide-in-from-bottom duration-700 delay-300">
-                    <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-b from-green-600/90 to-green-500/90 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-102 flex items-center justify-center space-x-2">
+                    <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-b from-blue-600/90 to-blue-500/90 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-102 flex items-center justify-center space-x-2">
                         <span>Start Coding Free</span>
                         <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 translate-transform duration-300"/>
                     </button>
@@ -67,7 +67,7 @@ export default function Hero() {
                         <div className="flex items-center space-x-2 ">
                             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-red-500"/>
                             <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-yellow-500"/>
-                            <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-green-500"/>
+                            <div className="w-2 h-2 sm:w-3 sm:h-3 rounded-full bg-blue-500"/>
                         </div>
                         <span className="text-xs sm:text-s text-gray-300 ">
                             CodeFlow AI
@@ -81,7 +81,7 @@ export default function Hero() {
                                 onClick={() => setActiveTab("App.jsx")}
                                 className={`px-3 py-2 backdrop-blur-sm text-xs sm:text-sm rounded-t-lg border border-white/20 ${
                                         activeTab === "App.jsx"
-                                        ? "bg-green-500/30 text-white border-green-400/20"
+                                        ? "bg-blue-500/30 text-white border-blue-400/20"
                                         : "bg-white/5 text-gray-300 border-white/10 hover:bg-white/10"
                                         } transition-all duration-200 whitespace-nowrap`}>
                                 App.jsx
@@ -90,7 +90,7 @@ export default function Hero() {
                                 onClick={() => setActiveTab("Hero.jsx")}
                                 className={`px-3 py-2 backdrop-blur-sm text-xs sm:text-sm rounded-t-lg border border-white/20 ${
                                         activeTab === "Hero.jsx"
-                                        ? "bg-green-500/30 text-white border-green-400/20"
+                                        ? "bg-blue-500/30 text-white border-blue-400/20"
                                         : "bg-white/5 text-gray-300 border-white/10 hover:bg-white/10"
                                         } transition-all duration-200 whitespace-nowrap`}>
                                 Hero.jsx
@@ -99,7 +99,7 @@ export default function Hero() {
                                 onClick={() => setActiveTab("Navbar.jsx")}
                                 className={`px-3 py-2 backdrop-blur-sm text-xs sm:text-sm rounded-t-lg border border-white/20 ${
                                         activeTab === "Navbar.jsx"
-                                        ? "bg-green-500/30 text-white border-green-400/20"
+                                        ? "bg-blue-500/30 text-white border-blue-400/20"
                                         : "bg-white/5 text-gray-300 border-white/10 hover:bg-white/10"
                                         } transition-all duration-200 whitespace-nowrap`}>
                                 Navbar.jsx

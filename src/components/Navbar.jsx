@@ -13,14 +13,14 @@ export default function Navbar() {
               </div> */}
               <span className=" text-lg sm:text-xl md:text-2xl font-medium items-start">
                 <span className="text-white">Code</span>
-                <span className="text-green-400">Flow</span>
+                <span className="text-blue-400">Flow</span>
               </span>
           </div>
 {/* Nav Links */}
         <div className=" hidden sm:hidden md:block flex items-center space-between space-x-6 lg:space-x-8">
             <a href="#features" className="text-gray-300 text-sm lg:text-base">Features</a>
             <a href="#pricing" className="text-gray-300 text-sm lg:text-base">Pricing</a>
-            <a href="#features" className="text-gray-300 text-sm lg:text-base">Testimonials</a>
+            <a href="#testimonials" className="text-gray-300 text-sm lg:text-base">Testimonials</a>
         </div>
         
             <button

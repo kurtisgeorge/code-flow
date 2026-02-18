@@ -85,10 +85,10 @@ export const floatingCards = {
         content: "Dynamic typing effects generated automatically"
     },
     "Navbar.jsx" : {
-        bgColor: "bg-emerald-500/20",
-        iconColor: "text-emerald-400",
-        textColor: "text-emerald-200",
-        contentColor: "text-emerald-300",
+        bgColor: "bg-cyan-500/20",
+        iconColor: "text-cyan-400",
+        textColor: "text-cyan-200",
+        contentColor: "text-cyan-300",
         icon: "🔍",
         title: "Smart Search",
         content: "Intelligent code search across your project"
