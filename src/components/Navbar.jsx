@@ -4,14 +4,14 @@ import { useState } from "react";
 export default function Navbar() {
     const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
   return (
-    <nav className="fixed top-0 w-full z-50 transition-all duration-300 bg-slate-950/20 backdrop-blur-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <nav className="fixed top-0 w-full  z-50 transition-all duration-300 bg-slate-950/20 backdrop-blur-sm">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 xl:pl-0">
         <div className="flex justify-between items-center h-14 sm:h-16 md:h-20 gap-3">
           <div className="flex items-center space-x-1 group cursor-pointer">
-              <div>
+              {/* <div>
                 <img src="logo.png" alt="CodeFlow" className="w-6 h-6 sm:w-8 sm:h-8" />
-                </div>
-              <span className="text-lg sm:text-xl md:text-2xl font-medium">
+              </div> */}
+              <span className=" text-lg sm:text-xl md:text-2xl font-medium items-start">
                 <span className="text-white">Code</span>
                 <span className="text-green-400">Flow</span>
               </span>
